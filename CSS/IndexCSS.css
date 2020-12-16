@@ -1,0 +1,223 @@
+body{
+            /*background-image: url('material/bg.jpg');*/
+         	/*background-color: #FFFFBB;*/
+         	margin:0px;
+			padding:0px;
+         	background:url('../material/BackGround.png') center center fixed no-repeat;
+            background-repeat:no-repeat;
+            background-size: cover;
+
+            font-size: 25px;
+ 			font-family: DFKai-sb;
+
+        }
+
+ span{
+
+font-size: 4vh;
+font-weight: bold;
+
+ }
+ 
+ p{
+ 	border: 2px yellow solid;
+ }
+
+
+
+.Info{
+	
+width: 15vw;
+height:1200px;
+background-color:rgb(180, 198, 232);
+position: relative;
+float: left;
+left: 0;
+top:0;
+border:2px green solid;
+
+}
+
+
+
+.chart_class{
+
+    width: 70vw;
+    height: 77vh;
+    position: relative;
+    float: left;
+    border: 2px purple solid;
+
+}
+
+
+
+.UserStatus{
+	text-align: center;
+
+	position: relative;
+	top:20px;
+	border:2px green solid;
+
+
+}
+
+.SelectGroup{
+
+text-align: center;
+position: relative;
+top:120px;
+color: white;
+border:2px green solid;
+
+
+
+
+}
+
+.SelectTheme{
+width: 70vw;
+height: 22vh;
+position: relative;
+float: left;
+border:2px green solid;
+
+}
+
+
+.Allbook{
+
+	background-color: white;
+	width: 11.5vw;
+	height: 11.5vh;
+	position: absolute;
+	top:50px;
+	left: 5vw;
+	border-radius:15px;
+	border: 2px blue solid;
+
+
+}
+
+
+.Theme1{
+
+	background-color: white;
+	width: 11.5vw;
+	height: 11.5vh;
+	position: absolute;
+	top:50px;
+	left: 21.5vw;
+	border-radius:15px;
+	border: 2px blue solid;
+
+
+}
+
+.Theme2{
+
+	background-color: white;
+	width: 11.5vw;
+	height: 11.5vh;
+	position: absolute;
+	top:50px;
+	left: 38vw;
+	border-radius:15px;
+	border: 2px blue solid;
+
+
+}
+
+.Theme3{
+
+	background-color: white;
+	width: 11.5vw;
+	height: 11.5vh;
+	position: absolute;
+	top:50px;
+	left: 54.5vw;
+	border-radius:15px;
+	border: 2px blue solid;
+
+
+}
+
+.ThemeBook_png{
+	width: 2.8vw;
+    height: 5.5vh;
+    top: 24%;
+ 
+    position: relative;
+    float: left;
+
+
+}
+
+.Theme_text{
+	width: 6.5vw;
+    height:6vh;
+	text-align: center;
+    position: relative;
+    float: left;
+    top: 3vh;
+    left: 0.6vw;
+    font-size: 2vh;
+    border: 2px blue solid;
+}
+
+.img_class{
+	position: relative;
+    float: left;
+    top: 3vh;
+    left: 1vw;
+    border:2px green solid;
+
+    margin-right:10px;
+}
+
+.chart1{
+
+	background-color: white;
+	width: 28vw;
+    height: 28vh;
+	position: relative;
+	top:50px;
+	left: 5vw;
+	border-radius:15px;
+	border: 2px blue solid;
+
+
+
+}
+
+
+.chart2{
+
+	background-color: white;
+    width: 28vw;
+    height: 28vh;
+    border-radius: 15px;
+    border: 2px green solid;
+    position: relative;
+    left: 5vw;
+    top: 14vh;
+
+
+}
+
+
+.chart3{
+
+	background-color: white;
+    width: 28vw;
+    height: 65.5vh;
+    border-radius: 15px;
+    border: 2px green solid;
+    position: relative;
+    left: 38vw;
+    top: -52vh;
+
+
+}
+
+
