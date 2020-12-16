@@ -27,14 +27,14 @@ font-weight: bold;
 
 .Info{
 	
-width: 15vw;
-height:1200px;
-background-color:rgb(180, 198, 232);
-position: relative;
-float: left;
-left: 0;
-top:0;
-border:2px green solid;
+    width: 250px;
+    height: 1200px;
+    background-color: rgb(180, 198, 232);
+    position: absolute;
+    /* float: left; */
+    left: 0;
+    top: 0;
+    border: 2px green solid;
 
 }
 
@@ -42,11 +42,12 @@ border:2px green solid;
 
 .chart_class{
 
-    width: 70vw;
-    height: 77vh;
+    width: 1500px;
+    height: 900px;
     position: relative;
     float: left;
     border: 2px purple solid;
+    left: 253px;
 
 }
 
@@ -76,11 +77,12 @@ border:2px green solid;
 }
 
 .SelectTheme{
-width: 70vw;
-height: 22vh;
-position: relative;
-float: left;
-border:2px green solid;
+    width: 1500px;
+    height: 250px;
+    position: relative;
+    float: left;
+    border: 2px green solid;
+    left: 253px;
 
 }
 
@@ -88,14 +90,13 @@ border:2px green solid;
 .Allbook{
 
 	background-color: white;
-	width: 11.5vw;
-	height: 11.5vh;
-	position: absolute;
-	top:50px;
-	left: 5vw;
-	border-radius:15px;
-	border: 2px blue solid;
-
+    width: 250px;
+    height: 130px;
+    position: absolute;
+    top: 50px;
+    left: 110px;
+    border-radius: 15px;
+    border: 2px blue solid;
 
 }
 
@@ -103,13 +104,13 @@ border:2px green solid;
 .Theme1{
 
 	background-color: white;
-	width: 11.5vw;
-	height: 11.5vh;
-	position: absolute;
-	top:50px;
-	left: 21.5vw;
-	border-radius:15px;
-	border: 2px blue solid;
+    width: 250px;
+    height: 130px;
+    position: absolute;
+    top: 50px;
+    left: 460px;
+    border-radius: 15px;
+    border: 2px blue solid;
 
 
 }
@@ -117,13 +118,13 @@ border:2px green solid;
 .Theme2{
 
 	background-color: white;
-	width: 11.5vw;
-	height: 11.5vh;
-	position: absolute;
-	top:50px;
-	left: 38vw;
-	border-radius:15px;
-	border: 2px blue solid;
+    width: 250px;
+    height: 130px;
+    position: absolute;
+    top: 50px;
+    left: 830px;
+    border-radius: 15px;
+    border: 2px blue solid;
 
 
 }
@@ -131,60 +132,56 @@ border:2px green solid;
 .Theme3{
 
 	background-color: white;
-	width: 11.5vw;
-	height: 11.5vh;
-	position: absolute;
-	top:50px;
-	left: 54.5vw;
-	border-radius:15px;
-	border: 2px blue solid;
-
+    width: 250px;
+    height: 130px;
+    position: absolute;
+    top: 50px;
+    right: 22px;
+    border-radius: 15px;
+    border: 2px blue solid;
 
 }
 
 .ThemeBook_png{
-	width: 2.8vw;
-    height: 5.5vh;
+	width: 60px;
+    height: 60px;
     top: 24%;
- 
-    position: relative;
+    position: absolute;
     float: left;
-
 
 }
 
 .Theme_text{
-	width: 6.5vw;
-    height:6vh;
-	text-align: center;
-    position: relative;
+	width: 150px;
+    height: 70px;
+    text-align: center;
+    position: absolute;
     float: left;
-    top: 3vh;
-    left: 0.6vw;
-    font-size: 2vh;
+    top: 31px;
+    left: 87px;
+    font-size: 1.5rem;
     border: 2px blue solid;
 }
 
 .img_class{
-	position: relative;
+	position: absolute;
     float: left;
-    top: 3vh;
-    left: 1vw;
-    border:2px green solid;
-
-    margin-right:10px;
+    top: 33px;
+    left: 16px;
+    border: 2px green solid;
+    margin-right: 10px;
 }
 
 .chart1{
 
 	background-color: white;
-	width: 28vw;
-    height: 28vh;
-	position: relative;
-	top:50px;
-	left: 5vw;
-	border-radius:15px;
-	border: 2px blue solid;
+    width: 625px;
+    height: 330px;
+    position: absolute;
+    top: 50px;
+    left: 111px;
+    border-radius: 15px;
+    border: 2px blue solid;
 
 
 
@@ -194,13 +191,13 @@ border:2px green solid;
 .chart2{
 
 	background-color: white;
-    width: 28vw;
-    height: 28vh;
+    width: 625px;
+    height: 330px;
     border-radius: 15px;
     border: 2px green solid;
-    position: relative;
-    left: 5vw;
-    top: 14vh;
+    position: absolute;
+    left: 111px;
+    top: 450px;
 
 
 }
@@ -209,14 +206,14 @@ border:2px green solid;
 .chart3{
 
 	background-color: white;
-    width: 28vw;
-    height: 65.5vh;
+    width: 625px;
+    height: 730px;
     border-radius: 15px;
     border: 2px green solid;
-    position: relative;
-    left: 38vw;
-    top: -52vh;
-
+    position: absolute;
+    left: 820px;
+    top: 50px;
+}
 
 }
 

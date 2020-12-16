@@ -2,6 +2,9 @@
 <head>
 	<title>Untitled Document</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+
+
 </head>
 
 <body>
@@ -17,4 +20,37 @@
 		</p>
 	</form>
 </body>
+
+
+
+
+
+<script type="text/javascript">
+
+
+	
+	$('#form1').submit(function(event){
+  event.preventDefault();
+  var $form = $(this);
+
+  $.ajax({
+      type: 'POST',
+      url: $form.attr('action'),
+      data: $form.serialize(),
+      success: function(data) {
+      	var data2 = JSON.parse(data);//將後端收到的string轉換成object
+
+      	alert(data2.text);
+      	
+      	if (data2.code ==1) {
+
+      		window.location.href='./index.php';
+      	}
+      },
+      error: function(error) {
+        
+      }
+  });
+});
+</script>
 </html>
