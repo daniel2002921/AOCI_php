@@ -3,6 +3,23 @@ body{
 	font-size: 2rem;
 }
 
+select{
+	width: 180px;
+    height: 40px;
+    font-size: 2rem;
+}
+
+
+p{
+	margin: 10px;
+}
+
+input{
+
+	/*text-align: center;*/
+}
+
+
 .flex-container{
 
 	display: flex;
@@ -10,6 +27,7 @@ body{
 }
 
 .class1{
+	position: relative;
 	
 	height: 300px;
 	width: 200px;
@@ -17,12 +35,28 @@ body{
 	/*//border-color: blue;*/
 }
 
-table{
+.table1{
 	position: relative;
 	left:10px;
+	
 /*	border: 1.5px black solid;
 	*/
 }
-td{
+.form1{
+
+	border: 2px blue solid;
+	position: relative;
+	left: 20px;
 	
 }
+
+.select1{
+
+	position: relative;
+	top: 10px;
+	height: 300px;
+	width: 200px;
+	border: 2px blue solid;
+}
+
+
