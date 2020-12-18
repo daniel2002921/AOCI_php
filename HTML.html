@@ -6,12 +6,17 @@
 	<link rel="stylesheet" type="text/css" href="./CSS/aoci_css.css">
 </head>
 <body>
+	<div>
+		<h1>HTML功能</h1>
+	</div>
 	<div class="flex-container">
 		<div class="class1">
+			<h3>文字</h3>
 			文字內容展示
 		</div>
 
 		<div class="table1">
+			<h3>表格table</h3>
 			<table border="1">
 				<tr>
 					<th>姓名</th>
@@ -33,7 +38,7 @@
 		</div>
 
 		<div class="form1">
-			<p>Form表單</p>
+			<h3>Form表單</h3>
 			
 			<form>
 				
@@ -61,14 +66,40 @@
 
 		<div class="select1">
 			
+			<h3>下拉式選單</h3>
 			<select>
 				
 				<option>選項一</option>
 				<option>選項二</option>
 				<option>選項三</option>
-				
+
 			</select>
 
+		</div>
+
+		<div class="calendar">
+
+			<h3>日曆</h3>
+			
+			<input type="date" style="font-size: 2rem;">
+		</div>
+
+
+		<div class="video">
+			<h3>內嵌影片</h3>
+			<iframe width="420" height="300"
+			src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+			</iframe>			
+		</div>
+
+		<div class="canvas">
+
+			<h3>Canvas</h3>
+
+			<canvas id="myCanvas" width="200" height="410" style="border:1px solid #c3c3c3;">
+			Your browser does not support the canvas element.
+			</canvas>
+			
 		</div>
 		
 
@@ -82,4 +113,13 @@
 
 
 </body>
+
+<script type="text/javascript">
+	var c=document.getElementById("myCanvas");
+	var cxt=c.getContext("2d");
+	cxt.moveTo(10,100);
+	cxt.lineTo(150,350);
+	cxt.lineTo(10,250);
+	cxt.stroke();
+</script>
 </html>
