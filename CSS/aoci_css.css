@@ -29,6 +29,8 @@ input{
 
 	display: flex;
 	flex-direction: row;
+	top: 10px;
+	position: relative;
 }
 
 .flex-container2{
