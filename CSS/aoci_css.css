@@ -1,0 +1,28 @@
+body{
+
+	font-size: 2rem;
+}
+
+.flex-container{
+
+	display: flex;
+	flex-direction: row;
+}
+
+.class1{
+	
+	height: 300px;
+	width: 200px;
+	border: 2px blue solid;
+	/*//border-color: blue;*/
+}
+
+table{
+	position: relative;
+	left:10px;
+/*	border: 1.5px black solid;
+	*/
+}
+td{
+	
+}
